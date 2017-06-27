@@ -1,0 +1,20 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+  <title>Heroes Mine</title>
+  <base href="/"></base>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
+</head>
+<body>
+  <app-root>Cargando...</app-root>
+  	<script type="text/javascript" th:src="@{/js/inline.bundle.js}" />
+  	<script type="text/javascript" th:src="@{/js/polyfills.bundle.js}" />
+  	<script type="text/javascript" th:src="@{/js/scripts.bundle.js}" />
+  	<script type="text/javascript" th:src="@{/js/styles.bundle.js}" />
+  	<script type="text/javascript" th:src="@{/js/vendor.bundle.js}" />
+  	<script type="text/javascript" th:src="@{/js/main.bundle.js}" />
+</body>
+</html>
